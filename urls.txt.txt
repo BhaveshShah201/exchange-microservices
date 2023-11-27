@@ -1,0 +1,22 @@
+Currency Conversion
+----------------------
+http://localhost:8100/api/currency-conversion/from/USD/to/INR/quantity/50
+
+Currency Exchange
+----------------------
+http://localhost:8000/api/currency-exchange/from/USD/to/INR
+
+Eureka Server
+---------------------
+http://localhost:8761/
+
+
+API Gateway
+---------------------
+http://localhost:8765/currency-conversion/api/currency-conversion/from/USD/to/INR/quantity/50
+
+http://localhost:8765/currency-exchange/api/currency-exchange/from/USD/to/INR
+
+http://localhost:8765/api/currency-conversion/from/USD/to/INR/quantity/50
+
+http://localhost:8765/api/currency-exchange/from/USD/to/INR
