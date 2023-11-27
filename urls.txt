@@ -20,3 +20,19 @@ http://localhost:8765/currency-exchange/api/currency-exchange/from/USD/to/INR
 http://localhost:8765/api/currency-conversion/from/USD/to/INR/quantity/50
 
 http://localhost:8765/api/currency-exchange/from/USD/to/INR
+
+
+image build command
+---------------------
+mvn spring-boot:build-image -DskipTests
+
+
+images
+---------------------
+
+docker.io/bshah201/ces-currency-exchange-service:0.0.1-SNAPSHOT
+docker.io/bshah201/ces-naming-server:0.0.1-SNAPSHOT
+docker.io/bshah201/ces-currency-conversion-service:0.0.1-SNAPSHOT
+docker.io/bshah201/ces-api-gateway:0.0.1-SNAPSHOT
+
+gcloud container clusters get-credentials currency-exchange-cluster --region us-central1 --project plucky-command-296313
